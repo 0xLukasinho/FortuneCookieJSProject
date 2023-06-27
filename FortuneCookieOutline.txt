@@ -1,0 +1,11 @@
+Fortune cookie generator - JavaScript Project:
+
+1. Project idea:
+Random message generator. Everytime the user renews they get a new randomized output. 
+Need three different data inputs to complete the random sentence telling the user the future:
+
+Within the next {timeframe} {aspect of life} will {what happens}
+==> Timeframe: 'decade', 'year', 'quarter', 'month', 'two weeks', 'next week', 'few days'
+==> Aspect of life: 'your lovelife', 'your career', 'an unexpected trip', 'taking a big risk', 'a crazy experience', 'a yet unknown person', 'a new friend' 
+==> What happens: 'turn upside down.', 'show significant progress.', 'offer you a lucky break.', 'offer you a happy surprise.', 'face you with challenges that make you grow mentally.', 'hit you with something you don't see coming.', 'tempt you into making a bad decision. Be careful to not fall for it!', 'make you go through a rough time before things finally lightening up again.', 'make you questioning your future.', 'offer you clearity about a question you've been asking yourself for a while.', 'offer you some of the best experiences of your life.' 
+
