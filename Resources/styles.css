@@ -8,6 +8,14 @@ html {
     html {
         font-size: 30px;
     }
+
+    body {
+        width: 840px;
+    }
+
+    #cookie-containter {
+        width: 840px;
+    }
 }
 
 body {
@@ -49,6 +57,9 @@ p {
     font-size: 1.25rem;
 }
 
+.button {
+    text-align: center;
+}
 
 button {
     background-image: linear-gradient(144deg, rgb(161, 120, 54), rgb(223, 179, 106) 50%, rgb(237, 203, 146));
@@ -58,9 +69,10 @@ button {
     font-size: 18px;
     text-transform: uppercase;
     border-radius: 5px;
-    padding: 10px 30px;
     justify-self: center;
+    padding: 10px 30px;
     cursor: pointer;
+    margin: 30px auto;
 }
 
 
