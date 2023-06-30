@@ -4,6 +4,12 @@ html {
     color: rgb(223, 179, 106);
 }
 
+@media only screen and (max-width: 915px) {
+    html {
+        font-size: 30px;
+    }
+}
+
 body {
     width: 85%;
     margin: 0 auto;
@@ -21,7 +27,7 @@ p {
 
 #cookie-container {
     background-image: url(Images/CookiesClosed.jpg);
-    height: 412px;
+    height: 512px;
     width: 512px;
     display: flex;
     flex-direction: row;
