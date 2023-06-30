@@ -1,21 +1,7 @@
 html {
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Courgette', cursive;
     color: rgb(223, 179, 106);
-}
-
-@media only screen and (max-width: 1100px) {
-    html {
-        font-size: 30px;
-    }
-
-    body {
-        width: 840px;
-    }
-
-    #cookie-containter {
-        width: 840px;
-    }
 }
 
 body {
@@ -26,7 +12,7 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.3rem;
 }
 
 p {
@@ -35,8 +21,10 @@ p {
 
 #cookie-container {
     background-image: url(Images/CookiesClosed.jpg);
-    height: 512px;
-    width: 512px;
+    width: 26rem;
+    height: 26rem;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -81,4 +69,12 @@ button:hover {
     background: rgba(0,1,19,0.6);
     color: rgb(223, 179, 106);
     border: 3 solid rgb(223, 179, 106);
+}
+
+@media (min-aspect-ratio: 16/9) {
+
+    #cookie-container {
+        width: 14.5rem;
+        height: 14.5rem;
+    }
 }
