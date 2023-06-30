@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="Resources/styles.css" rel="stylesheet">
+        <title>Online Fortune Cookies</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Online Fortune Cookies</h1>
+        </header>
+        <main>
+            <p>Open your fortune cookie and learn about your future</p>
+            <div id="cookie-container" onclick="generateMessage(), changeImage()">
+            <div id="messageHere"></div>
+            <button id="GetCookieButton" onclick="generateMessage(), changeImage()">Open my cookie</button>
+            </div>
+        </main>
+        <script src="Resources/Script.js"></script>
+    </body>
+</html>
